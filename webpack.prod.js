@@ -13,9 +13,6 @@ module.exports = () =>
         path: "./prod.env",
         systemvars: true // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
       }),
-      new webpack.DefinePlugin({
-        "process.env.NODE_ENV": "production"
-      }),
       new CompressionPlugin({
         algorithm: "gzip",
         test: /\.js$|\.css$|\.html$|\.eot?.+$|\.ttf?.+$|\.woff?.+$|\.svg?.+$/,

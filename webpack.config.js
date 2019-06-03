@@ -25,12 +25,6 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new Dotenv({
-      path: "./dev.env",
-      systemvars: true // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
-    })
-  ],
   resolve: {
     extensions: ["*", ".js", ".jsx"]
   },

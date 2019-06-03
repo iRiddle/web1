@@ -1,0 +1,33 @@
+#okta-sign-in .auth-org-logo {
+  max-height: 180px;
+}
+
+#okta-sign-in.auth-container .okta-sign-in-header {
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  background-color: #fdda24;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#okta-sign-in.auth-container .button-primary {
+  background-color: #4a773c !important;
+  background: -webkit-linear-gradient(#4a773c, #4a773c);
+  border-color: white;
+  border-bottom-color: white;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+#okta-sign-in.auth-container .button-primary:hover {
+  background-color: #4a773c !important;
+  background: -webkit-linear-gradient(#4a773c, #4a773c);
+  border-color: white;
+  border-bottom-color: white;
+  box-shadow: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+React-Redux Directory Structure
+
+app-name
+        |----assets
+        |----dist
+        |----src
+        |       |----components
+        |       |              |----buttons
+        |       |              |----notifications
+        |       |
+        |       |
+        |       |----scene
+        |       |         |----home
+        |       |         |----services
+        |       |         |---->index.js
+        |       |
+        |       |
+        |       |----login
+        |       |         |----components
+        |       |         |----scene
+        |       |         |         |----register
+        |       |         |----config
+        |       |
+        |       |
+        |       |----services
+        |       |           |----api
+        |       |           |----session
+        |       |           |----users
+        |       |           |         |----actions
+        |       |           |         |----reducers
+        |
+        |
+        |----index.js
+        |----store.js
